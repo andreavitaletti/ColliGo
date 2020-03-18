@@ -1,8 +1,8 @@
 Il contenuto che segue è liberamente disponibile con licenza ![CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di frmelo sapere.
 
-Telegram: @avitaletti
-e-mail: andrea.vitaletti@gmail.com
-linkedin: www.linkedin.com/in/andreavitaletti
+* Telegram: @avitaletti
+* e-mail: andrea.vitaletti@gmail.com
+* linkedin: www.linkedin.com/in/andreavitaletti
 
 # IL PROBLEMA
 
