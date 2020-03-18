@@ -16,7 +16,7 @@ Le piattaforme online, sottoposte al carico di questi giorni, prediligono giusta
 
 # UNA POSSIBILE SOLUZIONE
 
-Per ovviare a questo problema, proponiamo un processo molto semplice, già sperimentato in alcuni contesti: 
+Per ovviare a questo problema, proponiamo un processo molto semplice, già sperimentato in alcuni contesti ... qualcuno direbbe "la scoperta dell'acqua clada!" :-) 
 
 1. L'utente accede ad un canale online (web, telegram, facebook, telefono etc.) per selezionare i prodotti
 2. l'esercente confeziona i prodotti selezionati dall'utente in modo che possano essere ritirati
