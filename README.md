@@ -53,6 +53,8 @@ Se qualcuno dovesse implementare una di queste soluzioni, vi prego di comunicarm
 4. Il negoziante conferma la disponibilità e suggerisce un intervallo di tempo in cui prelevare la spesa
 5. l'acquirente si reca presso il negozio preleva la spesa e paga
 
+[<img src="https://img.youtube.com/vi/VXL0ynIedOI&t=2s/maxresdefault.jpg" width="50%">](https://youtu.be/VXL0ynIedOI&t=2s)
+
 # IL RUOLO DALLA GDO
 
 La maggiorparte della GDO è già dotata di sistemi di e-commerce, ma come già osservato in questo momento il meccanismo di recapito della spesa nelle abitazioni degli acquirenti è congestionato. 
