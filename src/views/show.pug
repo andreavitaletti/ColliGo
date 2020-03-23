@@ -1,0 +1,84 @@
+doctype html
+html.gr__leafletjs_com(data-lt-installed="true")
+  head
+    meta(http-equiv="content-type" content="text/html; charset=UTF-8")
+    title Quick Start - Leaflet
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="")
+    // Make sure you put this AFTER Leaflet's CSS
+    script(src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin="")
+  body#dummybodyid(data-gr-c-s-loaded="true")
+    #mapid.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom(style="width: 600px; height: 400px; position: relative;" tabindex="0")
+      .leaflet-pane.leaflet-map-pane(style="transform: translate3d(0px, 0px, 0px);")
+        .leaflet-pane.leaflet-tile-pane
+          .leaflet-layer(style="z-index: 1; opacity: 1;")
+            .leaflet-tile-container.leaflet-zoom-animated(style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);")
+              img.leaflet-tile.leaflet-tile-loaded(alt="" role="presentation" src="map_files/1361_002.png" style="width: 512px; height: 512px; transform: translate3d(-200px, -347px, 0px); opacity: 1;")
+              img.leaflet-tile.leaflet-tile-loaded(alt="" role="presentation" src="map_files/1361.png" style="width: 512px; height: 512px; transform: translate3d(312px, -347px, 0px); opacity: 1;")
+              img.leaflet-tile.leaflet-tile-loaded(alt="" role="presentation" src="map_files/1362.png" style="width: 512px; height: 512px; transform: translate3d(-200px, 165px, 0px); opacity: 1;")
+              img.leaflet-tile.leaflet-tile-loaded(alt="" role="presentation" src="map_files/1362_002.png" style="width: 512px; height: 512px; transform: translate3d(312px, 165px, 0px); opacity: 1;")
+        .leaflet-pane.leaflet-shadow-pane
+          img.leaflet-marker-shadow.leaflet-zoom-animated(src="map_files/marker-shadow.png" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(300px, 247px, 0px);" alt="")
+        .leaflet-pane.leaflet-overlay-pane
+          svg.leaflet-zoom-animated(pointer-events="none" width="720" height="480" style="transform: translate3d(-60px, -40px, 0px);" viewbox="-60 -40 720 480")
+            g
+              path.leaflet-interactive(stroke="red" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#f03" fill-opacity="0.5" fill-rule="evenodd" d="M141.20355555554852,171.94704600190744a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0 ")
+              path.leaflet-interactive(stroke="#3388ff" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#3388ff" fill-opacity="0.2" fill-rule="evenodd" d="M358 163L474 219L550 153z")
+        .leaflet-pane.leaflet-marker-pane
+          img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive(src="map_files/marker-icon.png" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(300px, 247px, 0px); z-index: 247;" alt="" tabindex="0")
+        .leaflet-pane.leaflet-tooltip-pane
+        .leaflet-pane.leaflet-popup-pane
+          .leaflet-popup.leaflet-zoom-animated(style="opacity: 1; transform: translate3d(301px, 213px, 0px); bottom: -7px; left: -57px;")
+            .leaflet-popup-content-wrapper
+              .leaflet-popup-content(style="width: 74px;")
+                b Hello world!
+                br
+                | I am a popup.
+            .leaflet-popup-tip-container
+              .leaflet-popup-tip
+            a.leaflet-popup-close-button(href="#close") ×
+        .leaflet-proxy.leaflet-zoom-animated(style="transform: translate3d(1048050px, 697379px, 0px) scale(4096);")
+      .leaflet-control-container
+        .leaflet-top.leaflet-left
+          .leaflet-control-zoom.leaflet-bar.leaflet-control
+            a.leaflet-control-zoom-in(href="#" title="Zoom in" role="button" aria-label="Zoom in") +
+            a.leaflet-control-zoom-out(href="#" title="Zoom out" role="button" aria-label="Zoom out") −
+        .leaflet-top.leaflet-right
+        .leaflet-bottom.leaflet-left
+        .leaflet-bottom.leaflet-right
+          .leaflet-control-attribution.leaflet-control
+            a(href="https://leafletjs.com/" title="A JS library for interactive maps") Leaflet
+            |  | Map data © 
+            a(href="https://www.openstreetmap.org/") OpenStreetMap
+            |  contributors, 
+            a(href="https://creativecommons.org/licenses/by-sa/2.0/") CC-BY-SA
+            | , Imagery © 
+            a(href="https://www.mapbox.com/") Mapbox
+    //
+      <script type="module">
+      import { hello, mydata } from './data.js'; // Or it could be simply `hello.js`
+      hello('world');
+      console.log(mydata);
+      </script>
+    script.
+      var mymap = L.map('mapid').setView([41.865311, 12.529776], 13);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+      maxZoom: 18,
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+      '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+      'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1
+      }).addTo(mymap);
+      L.marker([#{lat}, #{lon}]).addTo(mymap)
+      .bindPopup('<b>#{name}</b><br />#{description}<br /> <a href="#{link}">#{link}</a>').openPopup();
+      var popup = L.popup();
+      function onMapClick(e) {
+      popup
+      .setLatLng(e.latlng)
+      .setContent("You clicked the map at " + e.latlng.toString())
+      .openOn(mymap);
+      }
+      mymap.on('click', onMapClick);
