@@ -53,7 +53,11 @@ Se qualcuno dovesse implementare una di queste soluzioni, vi prego di comunicarm
 4. Il negoziante conferma la disponibilità e suggerisce un intervallo di tempo in cui prelevare la spesa
 5. l'acquirente si reca presso il negozio preleva la spesa e paga
 
-[![Watch the video](out.gif)](https://youtu.be/vt5fpE0bzSY)
+## Un semplice Proof-of-concept
+
+Il codice è disponibile su [src](https://github.com/andreavitaletti/spesa/tree/master/src)
+
+[![Watch the video](out.gif)](https://youtu.be/koCy4j8L678 )
 
 # IL RUOLO DALLA GDO
 
