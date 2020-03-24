@@ -81,7 +81,7 @@ Se qualcuno dovesse implementare una di queste soluzioni, vi prego di comunicarm
 
 ## Un semplice Proof-of-concept
 
-Il codice è disponibile su [src](https://github.com/andreavitaletti/spesa/tree/master/src)
+Ancora veramente minimale, ma dimostra il concetto. Il codice è disponibile su [src](https://github.com/andreavitaletti/spesa/tree/master/src)
 
 [![Watch the video](out.gif)](https://youtu.be/koCy4j8L678 )
 
