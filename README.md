@@ -1,12 +1,31 @@
-Il contenuto che segue è liberamente disponibile con licenza ![CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere.
+# EasyCollect: riduciamo la fila, aumentiamo la sicurezza
+
+Il contenuto che segue è liberamente disponibile con licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere. **Se siete sviluppatori o semplicemente volete contribuire, vi prego di contattarmi.**
 
 * Telegram: @avitaletti
 * e-mail: andrea.vitaletti@diag.uniroma1.it
 * linkedin: www.linkedin.com/in/andreavitaletti
 
+# SOMMARIO
+
+**PROBLEMA.** In questa emergenza gli acquisti sono difficili e possono essere rischiosi a causa delle lunghe file che inducono alcuni ad approvigionamenti eccessivi. Le consegne a domicilio hanno forti ritardi e sono contingentate
+
+**SOLUZIONE.** Easy Collect un processo semplice già sperimentato in alcuni contesti
+
+1. L'utente accede ad un canale online per selezionare i prodotti
+2. l'esercente confeziona i prodotti selezionati dall'utente
+3. Il cliente si reca dall'esercente quando indicato al solo per ritirare i propri prodotti e pagare laddove non l'abbia già fatto online
+
+**BENEFICI.**
+
+1. I tempi necessari a ritirare i prodotti sono minimi: si riducono o azzerano le code
+2. Gli approvigionamenti eccessivi possono essere limitati
+
+**TARGET.** La GDO ha le risorse per realizzare soluzioni complesse, il target sono i negozi di quartiere e richiede la sola disponibilità di un cellulare con comuni app di messaggistica che hanno già dimostrato di sopportare carichi elevati.
+
 # IL PROBLEMA
 
-In questi giorni di emergenza ![COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public), gli acquisti sono difficili e possono essere rischiosi. 
+In questi giorni di emergenza [COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public), gli acquisti sono difficili e possono essere rischiosi. 
 
 In molti casi ci sono lunghe file per fare la spesa e devono essere prese tutte le precauzioni necessarie, come guanti e mascherine, per salvaguardare la salute degli acquirenti.  
 
@@ -50,7 +69,7 @@ Se qualcuno dovesse implementare una di queste soluzioni, vi prego di comunicarm
 2. l'acquirente si reca presso il negozio, preleva la spesa e paga
 
 
-## LA SOLUZIONE SU ![TELEGRAM](https://telegram.org/)
+## LA SOLUZIONE SU [TELEGRAM](https://telegram.org/)
 
 1. Il negoziante apre un canale telegram 
 2. Al mattino il negoziante fa un video sulla propria offerta o invia un messaggio sul canale descrivendo l'offerta
