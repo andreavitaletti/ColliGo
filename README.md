@@ -1,7 +1,7 @@
 Il contenuto che segue è liberamente disponibile con licenza ![CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere.
 
 * Telegram: @avitaletti
-* e-mail: andrea.vitaletti@gmail.com
+* e-mail: andrea.vitaletti@diag.uniroma1.it
 * linkedin: www.linkedin.com/in/andreavitaletti
 
 # IL PROBLEMA
@@ -29,6 +29,11 @@ Questo processo, potrebbe portare ai seguqnti benefici:
 1. I tempi necessari a ritirare i prodotti sono minimi e dunque si riducono, o addirittura azzerano le code, con evidente beneficio anche sulla sicurezza di acquirenti e lavoratori
 2. Laddove necessario, il controllo sulla quantità di prodotti potrebbe esser applicato alla fonte, limitando l'accumulo non necessario da parte di pochi
 
+# PRECISAZIONI
+
+1. **Il processo che proponiamo deve essere realizzato su un'infrastruttura minimale: il solo cellulare del negoziante**
+2. **Il ruolo del servizio è mettere in contatto clente con negoziante per iniziare il processo, le fasi successive di confezionamento, ritiro e pagamento vengono realizzate dal negoziante in piena autonomia**
+
 # IL RUOLO DEI NEGOZI DI QUARTIERE
 
 Nella soluzione delineata, i negozi di quartiere potrebbero ritornare ad avere un ruolo fondamentale di distribuzione dei prodotti vicino agli acquirenti. 
@@ -52,6 +57,8 @@ Se qualcuno dovesse implementare una di queste soluzioni, vi prego di comunicarm
 3. Gli acquirenti inviano un messaggio al negoziante con la lista della spesa
 4. Il negoziante conferma la disponibilità e suggerisce un intervallo di tempo in cui prelevare la spesa
 5. l'acquirente si reca presso il negozio preleva la spesa e paga
+
+**Le app di messagistica hanno dimostrato di reggere a forti carichi e sono molto diffuse, sono dunque sulla carta una buona soluzione tecnologica**
 
 ## Un semplice Proof-of-concept
 
