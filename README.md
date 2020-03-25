@@ -68,9 +68,13 @@ Il **negoziante**, attraverso il proprio cellulare, registra il negozio fornendo
 
 Queste informazioni sono immagazzinate nel back-end e forniscono la base di dati per la successiva fase di ricerca
 
+La figura che segue mostra una possibile interfaccia Web, meccanismi analoghi dovrebbero essere realizzati su vari canali (es: Telegram, Messanger, App Android, App IoS etc)
+
+![](registrazione.png)
+
 ## LA RICERCA DEL NEGOZIO
 
-L'**acquirente** accede ad un servizio (Web, App, integrato nei canali di contatto) che fornisce le seguenti funzionalità:
+L'**acquirente** accede ad un servizio (Web, App Android o IoS, integrato nei canali di contatto) che fornisce le seguenti funzionalità:
 
 1. Visualizzazione sulla mappa dei Negozi
 2. Ricerca con chiave (Nome Negozio, Indirizzo di prossimità, Descrizione, Canale di contatto)
@@ -82,11 +86,29 @@ L'output della Visualizzazione e della ricerca con chiave sono le informazioni d
 3. Descrizione (es: Alimentari e norcineria)
 4. Canali di contatto (es: telefono, Telegram, Messanger, Whatsup)
 
+La figura che segue mostra una possibile interfaccia Web, meccanismi analoghi dovrebbero essere realizzati su vari canali (es: Telegram, Messanger, App Android, App IoS etc)
+
+![](search.png)
+
 ## L'ACQUISTO e IL RITIRO DEI PRODOTTI 
 
 Dopo avere effettuato la ricerca, l'acquirente ha tutte le informazioni necessari per contattare **autonomamente** il negozio sui **canali di contatto** forniti. 
 
-**Le fasi successive di confezionamento, ritiro e pagamento vengono realizzate dal negoziante in piena autonomia interagendo con l'acquirente sul canale di contatto**
+**Le fasi successive di selezione dei prodotti, confezionamento, ritiro e pagamento vengono realizzate dal negoziante in piena autonomia interagendo con l'acquirente sul canale di contatto**
+
+Un possibile esempio su Telegram facilmente adattabil a molti altri canali
+
+A) Il Negoziante informa sul canale indicato nella ricerca come contattarlo privatamente (nell'esempio @giovannino_er_fruttarolo) e la merce disponibile con informazioni su prezzi e quantità
+
+![](acquisto_Telegram.png)
+
+B) L'acquirente invia un messaggio privato al negoziante indicando i prodotti che desidera
+
+C) Il negoziante conferma che prende in carico l'ordine rispondendo al messaggio
+
+D) Quando l'ordine è pronto il negoziante informa l'acquirente indicando l'orario in cui effettuare il ritiro
+
+E) L'acquirente ritira il prodotto nell'orario indicato, paga e torna a casa con la merce
 
 # IL RUOLO DEI NEGOZI DI QUARTIERE
 
@@ -134,5 +156,6 @@ Sono già disponibili servizi molto utili che consentono fi visualizzare le atte
 
 * https://dovefila.it/
 * https://www.filaindiana.it/
+* https://iorestoacasa.delivery/
 
 **La differenza fondamentale rispetto alla nostra proposta è che in ogni caso la fila, sebbene ridotta, va comunque fatta per poter accedere alle successive fasi di selezione prodotti all'interno del negozio, pagamento e ritiro. Nel nostro caso, la merce è già pronta e deve solo essere ritirata e pagata.**
