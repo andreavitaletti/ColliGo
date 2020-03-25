@@ -127,3 +127,12 @@ La maggiorparte della GDO è già dotata di sistemi di e-commerce, ma come già 
 Non conosco a sufficienza i sistemi informatici della GDO per sapere quali siano le difficoltà nell'implementare il meccanismo proposto, ma immagino che con un po' di buona volontà si possa fare. 
 
 Prego chiunque abbia informazioni più sostanziali di contattarmi
+
+# Servizi per vedere le attese in fila
+
+Sono già disponibili servizi molto utili che consentono fi visualizzare le attese in fila ai negozi, supermercati in particolare. Per esempio:
+
+* https://dovefila.it/
+* https://www.filaindiana.it/
+
+**La differenza fondamentale rispetto alla nostra proposta è che in ogni caso la fila, sebbene ridotta, va comunque fatta per poter accedere alle successive fasi di selezione prodotti all'interno del negozio, pagamento e ritiro. Nel nostro caso, la merce è già pronta e deve solo essere ritirata e pagata.**
