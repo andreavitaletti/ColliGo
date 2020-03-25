@@ -37,9 +37,10 @@ Le piattaforme online, sottoposte al carico di questi giorni, prediligono giusta
 
 Per ovviare a questo problema, proponiamo un processo molto semplice, già sperimentato in alcuni contesti ... qualcuno direbbe "la scoperta dell'acqua calda!" :-) 
 
-1. L'utente accede ad un canale online (web, telegram, facebook, telefono etc.) per selezionare i prodotti
-2. l'esercente confeziona i prodotti selezionati dall'utente in modo che possano essere ritirati
-3. Il cliente si reca dall'esercente semplicemente per ritirare i propri prodotti e eventualmente pagare laddove non l'abbia già fatto online 
+1. Un canale online (web, telegram, facebook etc) indicizza e rende possibile la ricerca dei negozi fornendo un **canale di comunicazioni con cui contattarli**
+2. L'utente contatta il negozio sul canale di comunicazione specificato per selezionare i prodotti
+3. l'esercente confeziona i prodotti selezionati dall'utente in modo che possano essere ritirati
+4. Il cliente si reca dall'esercente semplicemente per ritirare i propri prodotti e eventualmente pagare laddove non l'abbia già fatto online 
 
 Sono possibili molti miglioramenti come per esempio la possibilità che l'esercente  indichi l'intervallo di tempo in cui ritirare la spesa in modo da evitare possibili accodamenti
 
@@ -48,10 +49,44 @@ Questo processo, potrebbe portare ai seguqnti benefici:
 1. I tempi necessari a ritirare i prodotti sono minimi e dunque si riducono, o addirittura azzerano le code, con evidente beneficio anche sulla sicurezza di acquirenti e lavoratori
 2. Laddove necessario, il controllo sulla quantità di prodotti potrebbe esser applicato alla fonte, limitando l'accumulo non necessario da parte di pochi
 
-# PRECISAZIONI
+# VINCOLI
 
-1. **Il processo che proponiamo deve essere realizzato su un'infrastruttura minimale: il solo cellulare del negoziante**
-2. **Il ruolo del servizio è mettere in contatto clente con negoziante per iniziare il processo, le fasi successive di confezionamento, ritiro e pagamento vengono realizzate dal negoziante in piena autonomia**
+**Il processo che proponiamo deve essere realizzato su un'infrastruttura minimale: il solo cellulare del negoziante**
+
+# FUNZIONALITA' PRINCIPALI
+
+Il processo prevede 3 funzionalità principali: 1) la registrazione del negozio, 2) La ricerca del negozio, 3) l'acquisto e il ritiro dei prodotti
+
+## LA REGISTRAZIONE DEL NEGOZIO
+
+Il **negoziante**, attraverso il proprio cellulare, registra il negozio fornendo le seguenti informazioni:
+
+1. Nome del Negozio
+2. Indirizzo e/o Coordinate Geografiche
+3. Descrizione (es: Alimentari e norcineria)
+4. Canali di contatto (es: telefono, Telegram, Messanger, Whatsup)
+
+Queste informazioni sono immagazzinate nel back-end e forniscono la base di dati per la successiva fase di ricerca
+
+## LA RICERCA DEL NEGOZIO
+
+L'**acquirente** accede ad un servizio (Web, App, integrato nei canali di contatto) che fornisce le seguenti funzionalità:
+
+1. Visualizzazione sulla mappa dei Negozi
+2. Ricerca con chiave (Nome Negozio, Indirizzo di prossimità, Descrizione, Canale di contatto)
+
+L'output della Visualizzazione e della ricerca con chiave sono le informazioni del negozio e cioè
+
+1. Nome del Negozio
+2. Indirizzo e/o Coordinate Geografiche
+3. Descrizione (es: Alimentari e norcineria)
+4. Canali di contatto (es: telefono, Telegram, Messanger, Whatsup)
+
+## L'ACQUISTO e IL RITIRO DEI PRODOTTI 
+
+Dopo avere effettuato la ricerca, l'acquirente ha tutte le informazioni necessari per contattare **autonomamente** il negozio sui **canali di contatto** forniti. 
+
+**Le fasi successive di confezionamento, ritiro e pagamento vengono realizzate dal negoziante in piena autonomia interagendo con l'acquirente sul canale di contatto**
 
 # IL RUOLO DEI NEGOZI DI QUARTIERE
 
