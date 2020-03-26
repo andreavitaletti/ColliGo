@@ -1,10 +1,6 @@
 # EasyCollect: riduciamo la fila, aumentiamo la sicurezza
 
-Il contenuto che segue è liberamente disponibile con licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere. **Se siete sviluppatori o semplicemente volete contribuire, vi prego di contattarmi. Siamo già un bel [gruppo](#PERSONE)**
-
-* Telegram: abbiamo un gruppo, unitevi su https://t.me/joinchat/JQE9dBW4OKvKDT7319uiQg 
-* e-mail: andrea.vitaletti@diag.uniroma1.it
-* linkedin: www.linkedin.com/in/andreavitaletti
+Il contenuto che segue è liberamente disponibile con licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere. **Se siete sviluppatori o semplicemente volete contribuire, vi prego di [contattarci](#PERSONE), siamo già un bel [gruppo](#PERSONE).**
 
 # SOMMARIO
 
@@ -163,7 +159,9 @@ Sono già disponibili servizi molto utili che consentono fi visualizzare le atte
 
 # PERSONE
 
-* Andrea Vitaletti, vitaletti@diag.uniroma1.it, telegram @avitaletti, github andreavitaletti, ruolo: coordinamento progetto
+Abbiamo un gruppo Telegram, unitevi su https://t.me/joinchat/JQE9dBW4OKvKDT7319uiQg 
+
+* Andrea Vitaletti, vitaletti@diag.uniroma1.it, telegram @avitaletti, linkedin: www.linkedin.com/in/andreavitaletti, github andreavitaletti, ruolo: coordinamento progetto
 * Luca Tomei, luca.tom1995@gmail.com, 3505613338, (@LucasMac Telegram),Github:LucaTomei ,  ruolo: Coordinatore GruppoTelegram e successivo sviuppo
 * Daniele Iacomini,, 3347324519, telegram @daniele_iacomini github: DanieleIacomini ruolo: sviluppo bot telegram
 * Simone Staffa, simonestaffa96@gmail.com, telegram @simonestaffa, github @simonestaffa, ruolo Coordinamento Backend e Frontend Web
