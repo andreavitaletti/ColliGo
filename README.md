@@ -83,8 +83,9 @@ L'output della Visualizzazione e della ricerca con chiave sono le informazioni d
 
 1. Nome del Negozio
 2. Indirizzo e/o Coordinate Geografiche
-3. Descrizione (es: Alimentari e norcineria)
-4. Canali di contatto (es: telefono, Telegram, Messanger, Whatsup)
+3. Categoria (max 3)
+4. Descrizione (es: 144 caratteri stile twitter compreso eventual link al sito del negozio)
+5. Canali di contatto (es: telefono, Telegram, Messanger, Whatsup)
 
 La figura che segue mostra una possibile interfaccia Web, meccanismi analoghi dovrebbero essere realizzati su vari canali (es: Telegram, Messanger, App Android, App IoS etc)
 
