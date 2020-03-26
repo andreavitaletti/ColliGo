@@ -1,0 +1,6 @@
+[submodule "easy-collect-api"]
+	path = easy-collect-api
+	url = https://github.com/simonestaffa/easy-collect-api.git
+[submodule "easy-collect-web"]
+	path = easy-collect-web
+	url = https://github.com/simonestaffa/easy-collect-web.git
