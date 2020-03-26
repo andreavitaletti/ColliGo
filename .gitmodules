@@ -4,3 +4,6 @@
 [submodule "easy-collect-web"]
 	path = easy-collect-web
 	url = https://github.com/simonestaffa/easy-collect-web.git
+[submodule "App-Android"]
+	path = App-Android
+	url = https://github.com/davegimo/easycollect_android
