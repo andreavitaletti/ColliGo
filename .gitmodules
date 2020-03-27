@@ -10,3 +10,6 @@
 [submodule "App_Android"]
 	path = App_Android
 	url = https://github.com/davegimo/easycollect_android
+[submodule "easy-collect-telegram"]
+	path = easy-collect-telegram
+	url = https://github.com/LucaTomei/easy-collect-telegram.git
