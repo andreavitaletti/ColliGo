@@ -7,3 +7,6 @@
 [submodule "messenger-bot"]
 	path = messenger-bot
 	url = https://github.com/marcozecchini/messenger-bot
+[submodule "App_Android"]
+	path = App_Android
+	url = https://github.com/davegimo/easycollect_android
