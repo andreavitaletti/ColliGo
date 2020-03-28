@@ -53,6 +53,8 @@ Questo processo, potrebbe portare ai seguqnti benefici:
 
 Il processo prevede 3 funzionalità principali: 1) la registrazione del negozio, 2) La ricerca del negozio, 3) l'acquisto e il ritiro dei prodotti
 
+[![Watch the video](PoC.gif)](https://youtu.be/YCMNtq4WMuc)
+
 ## LA REGISTRAZIONE DEL NEGOZIO
 
 Il **negoziante**, attraverso il proprio cellulare, registra il negozio fornendo le seguenti informazioni:
