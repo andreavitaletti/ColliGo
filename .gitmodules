@@ -13,3 +13,6 @@
 [submodule "easy-collect-telegram"]
 	path = easy-collect-telegram
 	url = git@github.com:LucaTomei/easy-collect-telegram.git
+[submodule "ios_App"]
+	path = ios_App
+	url = https://github.com/b00leant/colligo_iOS.git
