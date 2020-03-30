@@ -1,8 +1,9 @@
 # ColliGo: ritira la spesa in sicurezza
 
-Il contenuto che segue è liberamente disponibile con licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere. **Se siete sviluppatori o semplicemente volete contribuire, vi prego di [contattarci](#PERSONE), siamo già un bel [gruppo](#PERSONE).**
+Il contenuto che segue è liberamente disponibile con licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere. **Se siete sviluppatori o semplicemente volete contribuire, vi prego di [contattarci](#PERSONE).**
 
-**[Hosting Solutions](www.hostingsolutions.it) ci ospita per tre mesi gratuitamente. Grazie**
+**Questo progetto esiste grazie al lavoro volontario di un  [gruppo](#PERSONE) di persone e alla collaborazione di alcuni [sponsor](#SPONSOR).**
+
 
 # SOMMARIO
 
@@ -182,3 +183,6 @@ Abbiamo un gruppo Telegram, unitevi su https://t.me/joinchat/JQE9dBW4OKvKDT7319u
 * Alessio Cesaretti, lilcaesar23@gmail.com, telegram @Halpph, github @Halpph, ruolo: sviluppo Backend
 * Francesco Colasante, colasante.1760608@studenti.uniroma1.it, 3395376306, telegram @fcolasante: Ruolo: supporto Backend github: @fcolasante 
 
+#SPONSOR
+
+* [Hosting Solutions](www.hostingsolutions.it) ci ospita per tre mesi gratuitamente. Grazie.
