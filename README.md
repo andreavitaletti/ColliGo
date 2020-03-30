@@ -1,12 +1,14 @@
-# EasyCollect: riduciamo la fila, aumentiamo la sicurezza
+# ColliGo: ritira la spesa in sicurezza
 
 Il contenuto che segue è liberamente disponibile con licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere. **Se siete sviluppatori o semplicemente volete contribuire, vi prego di [contattarci](#PERSONE), siamo già un bel [gruppo](#PERSONE).**
+
+**[Hosting Solutions](www.hostingsolutions.it) ci ospita per tre mesi gratuitamente. Grazie**
 
 # SOMMARIO
 
 **PROBLEMA.** In questa emergenza gli acquisti sono difficili e possono essere rischiosi a causa delle lunghe file che inducono alcuni ad approvigionamenti eccessivi. Le consegne a domicilio hanno forti ritardi e sono contingentate
 
-**SOLUZIONE.** Easy Collect un processo semplice già sperimentato in alcuni contesti
+**SOLUZIONE.** ColliGo è un processo semplice già sperimentato in alcuni contesti
 
 1. L'utente accede ad un canale online per selezionare i prodotti
 2. l'esercente confeziona i prodotti selezionati dall'utente
