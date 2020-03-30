@@ -183,6 +183,6 @@ Abbiamo un gruppo Telegram, unitevi su https://t.me/joinchat/JQE9dBW4OKvKDT7319u
 * Alessio Cesaretti, lilcaesar23@gmail.com, telegram @Halpph, github @Halpph, ruolo: sviluppo Backend
 * Francesco Colasante, colasante.1760608@studenti.uniroma1.it, 3395376306, telegram @fcolasante: Ruolo: supporto Backend github: @fcolasante 
 
-#SPONSOR
+# SPONSOR
 
 * [Hosting Solutions](www.hostingsolutions.it) ci ospita per tre mesi gratuitamente. Grazie.
