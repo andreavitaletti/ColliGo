@@ -1,16 +1,15 @@
-# EasyCollect: riduciamo la fila, aumentiamo la sicurezza
+# ColliGo: ritira la spesa in sicurezza
 
-Il contenuto che segue è liberamente disponibile con licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere. **Se siete sviluppatori o semplicemente volete contribuire, vi prego di contattarmi.**
+Il contenuto che segue è liberamente disponibile con licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) ed il suo obiettivo primario è stimolare una discussione sull'utilità e fattibilità della soluzione proposta. Se ravvisate errori o informazioni scorrette vi prego di farmelo sapere. **Se siete sviluppatori o semplicemente volete contribuire, vi prego di [contattarci](#PERSONE).**
 
-* Telegram: abbiamo un gruppo, unitevi su https://t.me/joinchat/JQE9dBW4OKvKDT7319uiQg 
-* e-mail: andrea.vitaletti@diag.uniroma1.it
-* linkedin: www.linkedin.com/in/andreavitaletti
+**Questo progetto esiste grazie al lavoro volontario di un  [gruppo](#PERSONE) di persone e alla collaborazione di alcuni [sponsor](#SPONSOR).**
+
 
 # SOMMARIO
 
 **PROBLEMA.** In questa emergenza gli acquisti sono difficili e possono essere rischiosi a causa delle lunghe file che inducono alcuni ad approvigionamenti eccessivi. Le consegne a domicilio hanno forti ritardi e sono contingentate
 
-**SOLUZIONE.** Easy Collect un processo semplice già sperimentato in alcuni contesti
+**SOLUZIONE.** ColliGo è un processo semplice già sperimentato in alcuni contesti
 
 1. L'utente accede ad un canale online per selezionare i prodotti
 2. l'esercente confeziona i prodotti selezionati dall'utente
@@ -57,14 +56,17 @@ Questo processo, potrebbe portare ai seguqnti benefici:
 
 Il processo prevede 3 funzionalità principali: 1) la registrazione del negozio, 2) La ricerca del negozio, 3) l'acquisto e il ritiro dei prodotti
 
+[![Watch the video](PoC.gif)](https://youtu.be/YCMNtq4WMuc)
+
 ## LA REGISTRAZIONE DEL NEGOZIO
 
 Il **negoziante**, attraverso il proprio cellulare, registra il negozio fornendo le seguenti informazioni:
 
 1. Nome del Negozio
 2. Indirizzo e/o Coordinate Geografiche
-3. Descrizione (es: Alimentari e norcineria)
-4. Canali di contatto (es: telefono, Telegram, Messanger, Whatsup)
+3. La Categoria (max 3)
+4. Descrizione (es: 144 caratteri stile twitter compreso eventual link al sito del negozio)
+5. Canali di contatto (es: telefono, Telegram, Messanger, Whatsup)
 
 Queste informazioni sono immagazzinate nel back-end e forniscono la base di dati per la successiva fase di ricerca
 
@@ -160,3 +162,27 @@ Sono già disponibili servizi molto utili che consentono fi visualizzare le atte
 * https://iorestoacasa.delivery/
 
 **La differenza fondamentale rispetto alla nostra proposta è che in ogni caso la fila, sebbene ridotta, va comunque fatta per poter accedere alle successive fasi di selezione prodotti all'interno del negozio, pagamento e ritiro. Nel nostro caso, la merce è già pronta e deve solo essere ritirata e pagata.**
+
+# PERSONE
+
+Abbiamo un gruppo Telegram, unitevi su https://t.me/joinchat/JQE9dBW4OKvKDT7319uiQg 
+
+* Andrea Vitaletti, vitaletti@diag.uniroma1.it, telegram @avitaletti, linkedin: www.linkedin.com/in/andreavitaletti, github andreavitaletti, ruolo: coordinamento progetto
+* Luca Tomei, luca.tom1995@gmail.com, 3505613338, (@LucasMac Telegram),Github:LucaTomei ,  ruolo: Coordinatore GruppoTelegram e successivo sviuppo
+* Daniele Iacomini,, 3347324519, telegram @daniele_iacomini github: DanieleIacomini ruolo: sviluppo bot telegram
+* Simone Staffa, simonestaffa96@gmail.com, telegram @simonestaffa, github @simonestaffa, ruolo Coordinamento Backend e Frontend Web
+* Luca Ferrera, luca.ferrera96@gmail.com, github Luca-Ferrera, ruolo coordinatore bot whatsapp e sviluppo
+* Valerio Coretti, coretti.1635747@studenti.uniroma1.it, 3273431849, telegram @valeriocoretti, github: valecor95, ruolo: sviluppo bot Messenger
+* Marco Zecchini, zecchini@diag.uniroma1.it, github @marcozecchini, ruolo: sviluppo bot Messenger
+* Andrea Misuraca, and.misuraca@gmail.com, telegram: @amisuraca,Github: @andreamisu, Ruolo Frontend Dev
+* Michele Anselmi, anselmi.1716741@studenti.uniroma1.it, telegram: @Mikyxello, github: Mikyxello, ruolo Backend Dev
+* Simone Silvestri telegram: @simonesilvo, github: mrPsycox, ruolo: sys-admin + db
+* Andrea Aurizi, andrea.aurizi@gmail.com, 3934500368, Telegram @AndreaAurizi; Github: andreaaurizi, ruolo: svilupo bot telegram
+* Matteo Brandi info@investimentidigitali.it, ruolo:  supporto al backend Telegram: @m4tteobr4ndi 
+* Davide Gimondo, davegimo@gmail.com, 348 7562451, telegram: @davegimo, github: /davegimo, ruolo: webapp developer & video tutorial
+* Alessio Cesaretti, lilcaesar23@gmail.com, telegram @Halpph, github @Halpph, ruolo: sviluppo Backend
+* Francesco Colasante, colasante.1760608@studenti.uniroma1.it, 3395376306, telegram @fcolasante: Ruolo: supporto Backend github: @fcolasante 
+
+# SPONSOR
+
+* [Hosting Solutions](www.hostingsolutions.it) ci ospita per tre mesi gratuitamente. Grazie.

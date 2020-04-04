@@ -4,3 +4,15 @@
 [submodule "easy-collect-web"]
 	path = easy-collect-web
 	url = https://github.com/simonestaffa/easy-collect-web.git
+[submodule "messenger-bot"]
+	path = messenger-bot
+	url = https://github.com/marcozecchini/messenger-bot
+[submodule "App_Android"]
+	path = App_Android
+	url = https://github.com/davegimo/easycollect_android
+[submodule "easy-collect-telegram"]
+	path = easy-collect-telegram
+	url = git@github.com:LucaTomei/easy-collect-telegram.git
+[submodule "ios_App"]
+	path = ios_App
+	url = https://github.com/b00leant/colligo_iOS.git
