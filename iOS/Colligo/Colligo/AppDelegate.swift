@@ -12,10 +12,23 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window:UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        /*let defaults = UserDefaults.standard
+        if defaults.object(forKey: "isFirstTime") == nil {
+            defaults.set("No", forKey:"isFirstTime")
+            defaults.synchronize()
+        }*/
+        
+        /*let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let initialViewControlleripad : UIViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "Circles") as UIViewController
+                    self.window = UIWindow(frame: UIScreen.main.bounds)
+                    self.window?.rootViewController = initialViewControlleripad
+                    self.window?.makeKeyAndVisible()*/
+        
         return true
     }
 

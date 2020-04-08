@@ -31,7 +31,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIScrollViewDelega
         webView.scrollView.bounces = false
         //webView.uiDelegate = self
         
-        if let url = URL(string: "https://vetrina.cloud") {
+        if let url = URL(string: "https://colligo.shop") {
             let request = URLRequest(url: url)
             webView.load(request)
         }
