@@ -9,27 +9,25 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController, WKNavigationDelegate, UIScrollViewDelegate, WKUIDelegate,UIGestureRecognizerDelegate {
-    
+class ViewController: UIViewController, WKNavigationDelegate, UIScrollViewDelegate, WKUIDelegate, UIGestureRecognizerDelegate, UIWebViewDelegate {
+    @IBOutlet weak var loading: UIActivityIndicatorView!
     var webView = WKWebView()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view = webView
         
+        loading.startAnimating()
         let webConfiguration = WKWebViewConfiguration()
         webConfiguration.allowsInlineMediaPlayback = true
         
         webConfiguration.preferences.javaScriptCanOpenWindowsAutomatically = true
         webConfiguration.preferences.javaScriptEnabled = true
-        //webView = WKWebView(frame: self.view.frame, configuration: webConfiguration)
+        webView.addGestureRecognizer(DisableDoubleTapRecognizer())
         
         webView.navigationDelegate = self
         
         webView.scrollView.delegate = self
         webView.navigationDelegate = self
         webView.scrollView.bounces = false
-        //webView.uiDelegate = self
         
         if let url = URL(string: "https://colligo.shop") {
             let request = URLRequest(url: url)
@@ -43,11 +41,28 @@ class ViewController: UIViewController, WKNavigationDelegate, UIScrollViewDelega
         scrollView.pinchGestureRecognizer?.isEnabled = false
     }
     
+    func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!)
+    {
+        loading.isHidden = true;
+        self.view = webView
+    }
     
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return nil
     }
-
-
 }
 
+class DisableDoubleTapRecognizer : UITapGestureRecognizer, UIGestureRecognizerDelegate{
+    override init(target: Any?, action: Selector?) {
+        super.init(target: target, action: action)
+    }
+    
+    init() {
+        super.init(target:nil, action: nil)
+        self.numberOfTapsRequired = 2;
+        self.delegate = self;
+    }
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRequireFailureOf otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return true;
+    }
+}

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		34348E07243009CB0032533E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34348E06243009CB0032533E /* AppDelegate.swift */; };
-		34348E09243009CB0032533E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34348E08243009CB0032533E /* SceneDelegate.swift */; };
 		34348E0B243009CB0032533E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34348E0A243009CB0032533E /* ViewController.swift */; };
 		34348E0E243009CB0032533E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34348E0C243009CB0032533E /* Main.storyboard */; };
 		34348E11243009CB0032533E /* Colligo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34348E0F243009CB0032533E /* Colligo.xcdatamodeld */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		34348E03243009CB0032533E /* Colligo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colligo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34348E06243009CB0032533E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34348E08243009CB0032533E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		34348E0A243009CB0032533E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34348E0D243009CB0032533E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34348E10243009CB0032533E /* Colligo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Colligo.xcdatamodel; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				34348E06243009CB0032533E /* AppDelegate.swift */,
-				34348E08243009CB0032533E /* SceneDelegate.swift */,
 				34348E0A243009CB0032533E /* ViewController.swift */,
 				34348E0C243009CB0032533E /* Main.storyboard */,
 				34348E12243009D10032533E /* Assets.xcassets */,
@@ -144,7 +141,6 @@
 				34348E0B243009CB0032533E /* ViewController.swift in Sources */,
 				34348E11243009CB0032533E /* Colligo.xcdatamodeld in Sources */,
 				34348E07243009CB0032533E /* AppDelegate.swift in Sources */,
-				34348E09243009CB0032533E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +286,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Stefano Latini (Q3NBMV9RA5)";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Q3NBMV9RA5;
 				INFOPLIST_FILE = Colligo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,8 +308,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Stefano Latini (Q3NBMV9RA5)";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Q3NBMV9RA5;
 				INFOPLIST_FILE = Colligo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
