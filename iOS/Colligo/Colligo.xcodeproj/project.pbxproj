@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34348E03243009CB0032533E /* Colligo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colligo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34348E03243009CB0032533E /* ColliGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColliGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34348E06243009CB0032533E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34348E0A243009CB0032533E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34348E0D243009CB0032533E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		34348E04243009CB0032533E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34348E03243009CB0032533E /* Colligo.app */,
+				34348E03243009CB0032533E /* ColliGo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = Colligo;
 			productName = Colligo;
-			productReference = 34348E03243009CB0032533E /* Colligo.app */;
+			productReference = 34348E03243009CB0032533E /* ColliGo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34348DFE243009CB0032533E /* Build configuration list for PBXProject "Colligo" */;
+			buildConfigurationList = 34348DFE243009CB0032533E /* Build configuration list for PBXProject "ColliGo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -295,7 +295,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pyzzalab.colligo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColliGo;
 				PROVISIONING_PROFILE_SPECIFIER = "ColliGo Distribution Macbook Air";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pyzzalab.colligo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColliGo;
 				PROVISIONING_PROFILE_SPECIFIER = "ColliGo Distribution Macbook Air";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34348DFE243009CB0032533E /* Build configuration list for PBXProject "Colligo" */ = {
+		34348DFE243009CB0032533E /* Build configuration list for PBXProject "ColliGo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34348E18243009D10032533E /* Debug */,

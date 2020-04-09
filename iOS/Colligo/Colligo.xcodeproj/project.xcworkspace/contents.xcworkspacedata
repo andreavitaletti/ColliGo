@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Colligo.xcodeproj">
+      location = "self:/Users/b00leant/coding/spesa/iOS/Colligo/ColliGo.xcodeproj">
    </FileRef>
 </Workspace>
