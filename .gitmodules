@@ -16,3 +16,6 @@
 [submodule "easy-collect-ios"]
 	path = easy-collect-ios
 	url = https://github.com/MattRighetti/ColliGo.git
+[submodule "Colligo-Telegram_Bot"]
+	path = Colligo-Telegram_Bot
+	url = https://github.com/LucaTomei/Colligo-Telegram_Bot.git
